@@ -1,0 +1,11 @@
+{
+  "NAVBAR": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "EXPERIENCE": "Experience",
+    "EDUCATION": "Education",
+    "PORTFOLIO": "Portfolio",
+    "CONTACT": "Contact"
+  }
+
+}
