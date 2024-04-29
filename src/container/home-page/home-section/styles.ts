@@ -68,6 +68,7 @@ export const TitleLine = styled.div`
     display: flex;
     flex-direction: row;
     gap: 2%;
+    overflow: hidden;
 `;
 
 export const Title = styled.h1`
