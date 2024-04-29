@@ -6,6 +6,13 @@
     "EDUCATION": "Education",
     "PORTFOLIO": "Portfolio",
     "CONTACT": "Contact"
+  },
+  "HOME": {
+    "GRETING": "I'm ",
+    "NAME": "José Calvano",
+    "PROFESION_FIRST_PART": "Softaware ",
+    "PROFESION_SECOND_PART": "Engineer.",
+    "DESCRIPTION_SUBTITLE": "I build inmersive and user-friendly aplications that users love."
   }
 
 }

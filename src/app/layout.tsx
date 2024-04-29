@@ -9,6 +9,7 @@ import "./globals.css";
 
 // Providers
 import LanguageProviders from "@/providers/LanguageProviders";
+import ResolutionProviders from "@/providers/ResolutionProviders";
 
 const inter = Inter({ subsets: ["latin"] });
 

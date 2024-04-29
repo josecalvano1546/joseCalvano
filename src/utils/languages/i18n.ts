@@ -38,7 +38,7 @@ export const dropdownLanguageList = [
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: "EN",
+  lng: "ES",
   interpolation: {
     escapeValue: false,
   },
