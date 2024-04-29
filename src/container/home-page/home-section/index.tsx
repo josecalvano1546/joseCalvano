@@ -76,9 +76,9 @@ const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
                         <Subtitle> @jose_calvano</Subtitle>
                     </SocialText>
                     <SocialsButtonsContainers>
-                        {/* <SocialsButtons src={Linkeding} alt="linkeding icon" />
+                        <SocialsButtons src={Linkeding} alt="linkeding icon" />
                         <SocialsButtons src={Instagram} alt="instagram icon" />
-                        <SocialsButtons src={Facebook} alt="facebook icon" /> */}
+                        <SocialsButtons src={Facebook} alt="facebook icon" />
                     </SocialsButtonsContainers>
                 </SocialButtons>
                 <SubtitleCV>
