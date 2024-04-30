@@ -30,7 +30,7 @@ export const PresentationContainer = styled.div`
 export const SubtitleMobileContainer = styled.div`
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     max-width: 90%;
     @media (min-width:  ${BREAKPOINTS.SM}px) { 
@@ -102,6 +102,7 @@ export const SocialButtons = styled.div`
     flex-direction: row;
     flex: 1;
     width: 100%;
+    max-width: 300px;
 `;
 
 export const SocialsButtonsContainers = styled.div`
@@ -133,7 +134,7 @@ export const SubtitleContainer = styled.div`
     display: none;
     flex: 1;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     @media (min-width: ${BREAKPOINTS.SM}px) { 
         font-size: var(--Subtitle-font-size-sm);
