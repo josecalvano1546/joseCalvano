@@ -9,11 +9,12 @@ import { useGSAP } from "@gsap/react";
 import { BackgroundImage, ButtonCV, PresentationContainer, SectionContainer, SocialButtons, SocialContainer, SocialText, SocialsButtonsContainers, Subtitle, SubtitleCV, SubtitleContainer, SubtitleMobileContainer, Title, TitleContainer, TitleLine } from "./styles";
 
 // Components
-import SocialsButtons from "@/components/socialsButtons";
+import SocialsButton from "@/components/socialsButton";
+import TextButton from "@/components/textButton";
 
 // Assets
 import bg from '/public/homeBackground.png';
-import Facebook from '/public/icons/facebook.png';
+import Github from '/public/icons/github.png';
 import Instagram from '/public/icons/instagram.png';
 import Linkeding from '/public/icons/linkedin.png';
 
@@ -24,16 +25,15 @@ import fonts from "../../../../public/fonts";
 import { ContainerRef } from "@/types/ContainerRef";
 
 interface ComponentProps {
-    constainerRef: ContainerRef;
+    constainerRef?: ContainerRef;
 }
-
 
 const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
 
     const { t } = useTranslation("HOME");
 
     useGSAP(() => {
-        const t1 = gsap.timeline();
+        const t1 = gsap.timeline({repeatDelay: 1});
 
         t1.from(".title", {
             y: 200,
@@ -44,8 +44,27 @@ const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
                 amount: 0.4,
             },
         });
-    }, { scope: constainerRef });
 
+        t1.from(".imgContainer", {
+            scale: 0,
+            duration: 1,
+            delay: 0.2,
+            ease: "power2.inOut",
+            stagger: {
+                amount: 0.4,
+            },
+        }, "<0.5");
+
+        t1.from(".secondaryElements", {
+            opacity: 0,
+            duration: 1,
+            delay: 0.2,
+            ease: "power2.inOut",
+            stagger: {
+                amount: 0.4,
+            },
+        }, "<-0.5");
+    }, { scope: constainerRef });
 
     return (
         <SectionContainer className={fonts().className} ref={constainerRef}>
@@ -57,36 +76,36 @@ const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
             <PresentationContainer>
                 <TitleContainer>
                     <TitleLine >
-                        <Title className={'title'}> {t("GRETING")} </Title>
-                        <Title className={'highlight title'}> {t("NAME")} </Title>
+                        <Title className="title"> {t("GRETING")} </Title>
+                        <Title className="highlight title"> {t("NAME")} </Title>
                     </TitleLine>
                     <TitleLine>
-                        <Title className={'highlight title'}> {t("PROFESION_FIRST_PART")} </Title>
-                        <Title className={'title'}> {t("PROFESION_SECOND_PART")} </Title>
+                        <Title className="highlight title"> {t("PROFESION_FIRST_PART")} </Title>
+                        <Title className="title"> {t("PROFESION_SECOND_PART")} </Title>
                     </TitleLine>
                 </TitleContainer>
                 <SubtitleMobileContainer>
-                    <Subtitle> {t("DESCRIPTION_SUBTITLE")}</Subtitle>
+                    <Subtitle className="secondaryElements"> {t("DESCRIPTION_SUBTITLE")}</Subtitle>
                 </SubtitleMobileContainer>
             </PresentationContainer>
 
             <SocialContainer>
                 <SocialButtons>
                     <SocialText>
-                        <Subtitle> @jose_calvano</Subtitle>
+                        <Subtitle className="secondaryElements"> @jose_calvano </Subtitle>
                     </SocialText>
                     <SocialsButtonsContainers>
-                        <SocialsButtons src={Linkeding} alt="linkeding icon" />
-                        <SocialsButtons src={Instagram} alt="instagram icon" />
-                        <SocialsButtons src={Facebook} alt="facebook icon" />
+                        <SocialsButton href="https://www.linkedin.com/in/josecalvano/" src={Linkeding} alt="linkeding icon" />
+                        <SocialsButton href="https://www.instagram.com/jose_calvano/" src={Instagram} alt="instagram icon" />
+                        <SocialsButton href="https://github.com/josecalvano1546" src={Github} alt="github icon" />
                     </SocialsButtonsContainers>
                 </SocialButtons>
                 <SubtitleCV>
                     <SubtitleContainer>
-                        <Subtitle> {t("DESCRIPTION_SUBTITLE")}</Subtitle>
+                        <Subtitle className="secondaryElements"> {t("DESCRIPTION_SUBTITLE")}</Subtitle>
                     </SubtitleContainer>
-                    <ButtonCV>
-
+                    <ButtonCV className="secondaryElements">
+                        <TextButton description={t("BUTTON_DESCRIPTION")} href="/cv/joseCalvanoCV.pdf"/>
                     </ButtonCV>
                 </SubtitleCV>
             </SocialContainer>

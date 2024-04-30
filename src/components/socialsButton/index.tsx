@@ -1,18 +1,18 @@
 // Styles
-import { Effect, ImageContainer, SocialImage } from "./styles";
+import { AnimatedDiv, ImageContainer, SocialImage } from "./styles";
 
 // Types
 import type { SocialButtons } from "../../types/SocialButtons";
 
-const SocialsButton = ({ src, alt }: SocialButtons) => {
+const SocialsButton = ({ src, alt, href }: SocialButtons) => {
     return (
-        <ImageContainer>
-             <SocialImage
+        <ImageContainer href={href} className='imgContainer'>
+            <SocialImage
                 layout="fill"
                 alt={alt}
                 src={src}
             />
-            <Effect/>
+            <AnimatedDiv />
         </ImageContainer>
     )
 }

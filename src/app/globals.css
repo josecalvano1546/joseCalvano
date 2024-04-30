@@ -1,19 +1,22 @@
 :root {
   --homeSectionBg: red;
 
-  /* Desktop Fonts*/
+  /* Fonts */
   --Title-font-weight: 500;
   --Subtitle-font-weight: 500;
 
-  --Title-font-size-xs: 36px;
-  --Title-font-size-sm: 48px;
-  --Title-font-size-md: 75px;
-  --Title-font-size-lg: 100px;
+  --Title-font-size-xs: 28px;
+  --Title-font-size-sm: 40px;
+  --Title-font-size-md: 69px;
+  --Title-font-size-lg: 90px;
 
   --Subtitle-font-size-xs: 20px;
   --Subtitle-font-size-sm: 22px;
-  --Subtitle-font-size-md: 27px;
+  --Subtitle-font-size-md: 25px;
   --Subtitle-font-size-lg: 30px;
+
+ /*  colors */
+ --colors-bg-gradient: linear-gradient(90deg, #C4FF41 0%, #B3FFE4 100%);
 
 }
 * {

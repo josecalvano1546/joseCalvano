@@ -25,7 +25,6 @@ export const PresentationContainer = styled.div`
     display: flex;
     flex-direction: column;
     flex: 1.5;
-   // background-color: orange;
 `;
 
 export const SubtitleMobileContainer = styled.div`
@@ -34,7 +33,6 @@ export const SubtitleMobileContainer = styled.div`
     justify-content: center;
     align-items: center;
     max-width: 90%;
-    // background-color: green;
     @media (min-width:  ${BREAKPOINTS.SM}px) { 
         display: none;
     }
@@ -47,7 +45,6 @@ export const TitleContainer = styled.div`
     flex-direction: column;
     justify-content: flex-end;
     gap: 25px;
-   // background-color: purple;
 
    @media (min-width:  ${BREAKPOINTS.SM}px) { 
         padding-bottom: 100px;
@@ -98,7 +95,6 @@ export const SocialContainer = styled.div`
     flex: 1;
     width: 100%;
     flex-direction: row;
-    //background-color: lightpink;
 `;
 
 export const SocialButtons = styled.div`
@@ -106,7 +102,6 @@ export const SocialButtons = styled.div`
     flex-direction: row;
     flex: 1;
     width: 100%;
-   // background-color: red;
 `;
 
 export const SocialsButtonsContainers = styled.div`
@@ -125,7 +120,6 @@ export const SocialText = styled.div`
     text-orientation: sideways-right;
     transform: rotate(180deg);
     justify-content: center;
-    // background-color: gray;
 `;
 
 export const SubtitleCV = styled.div`
@@ -133,7 +127,6 @@ export const SubtitleCV = styled.div`
     flex-direction: column;
     flex: 2;
     width: 100%;
-    // background-color: blue;
 `;
 
 export const SubtitleContainer = styled.div`
@@ -178,5 +171,9 @@ export const ButtonCV = styled.div`
     display: flex;
     flex: 1;
     width: 100%;
-   // background-color: green;
+    align-items: center;
+
+    @media (min-width: ${BREAKPOINTS.SM}px) { 
+        align-items: start;
+    }
 `;
