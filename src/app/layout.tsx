@@ -6,9 +6,11 @@ import { Inter } from "next/font/google";
 
 // Styles
 import "./globals.css";
+import StyledComponentsRegistry from "../lib/registry";
 
 // Providers
 import LanguageProviders from "@/providers/LanguageProviders";
+import ResolutionProviders from "@/providers/ResolutionProviders";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,9 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <LanguageProviders>
-          {children}
-        </LanguageProviders>
+        <StyledComponentsRegistry>
+          <LanguageProviders>{children}</LanguageProviders>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
