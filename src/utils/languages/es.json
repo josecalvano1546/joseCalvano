@@ -14,5 +14,11 @@
       "PROFESION_SECOND_PART": "Software.",
       "DESCRIPTION_SUBTITLE": "Construyo aplicaciones inmersivas y fáciles de usar que a los usuarios les encanta.",
       "BUTTON_DESCRIPTION": "Descargar CV"
+  },
+  "SKILLS":{
+    "SECTION_NAME": "Porque Elegirme",
+    "TITLE_FIRST_PART": "Mi Lista de",
+    "TITLE_SECOND_PART": "Habilidades",
+    "SUBTITLE": "Soy desarrollador full-stack con más de cuatro años de experiencia."
   }
 }

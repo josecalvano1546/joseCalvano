@@ -14,6 +14,12 @@
     "PROFESION_SECOND_PART": "Engineer.",
     "DESCRIPTION_SUBTITLE": "I build inmersive and user-friendly aplications that users love.",
     "BUTTON_DESCRIPTION": "Download CV"
+  },
+  "SKILLS":{
+    "SECTION_NAME": "Why Choose Me",
+    "TITLE_FIRST_PART": "My List of",
+    "TITLE_SECOND_PART": "Skills",
+    "SUBTITLE":"I am full-stack developer with over four years of hands-on experience"
   }
 
 }
