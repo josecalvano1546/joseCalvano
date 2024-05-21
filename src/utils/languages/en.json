@@ -19,7 +19,31 @@
     "SECTION_NAME": "Why Choose Me",
     "TITLE_FIRST_PART": "My List of",
     "TITLE_SECOND_PART": "Skills",
-    "SUBTITLE":"I am full-stack developer with over four years of hands-on experience"
+    "SUBTITLE":"I am full-stack developer with over four years of hands-on experience",
+    "CARD_1":{
+      "TITLE": "HTML & CSS",
+      "SUBTITLE": "Experience in creating web pages with HTML5 and CSS3, applying responsive design to ensure they look good on any device."
+    },
+    "CARD_2":{
+      "TITLE": "JavaScript",
+      "SUBTITLE": "Skills in JavaScript (ES6+), including DOM manipulation, event handling, and creating asynchronous functions."
+    },
+    "CARD_3":{
+      "TITLE": "React & React Native",
+      "SUBTITLE": "Developing dynamic user interfaces with React.js and cross-platform mobile applications with React Native."
+    },
+    "CARD_4":{
+      "TITLE": "Next.js",
+      "SUBTITLE": "Using Next.js to build web applications with server-side rendering (SSR) and static site generation (SSG)."
+    },
+    "CARD_5":{
+      "TITLE": "Node.js",
+      "SUBTITLE": "Server-side development with Node.js, including creating RESTful APIs and handling servers with Express.js."
+    },
+    "CARD_6":{
+      "TITLE": "MongoDB",
+      "SUBTITLE": "Experience using MongoDB to store and manage data in applications, with knowledge in schema design and efficient queries."
+    }
   }
 
 }

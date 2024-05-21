@@ -10,6 +10,7 @@ export const SectionContainer = styled.section`
     padding: 2.5% 2.5% 5% 2.5%;
     background-color: white;
     border-top: 1px solid black;
+    overflow-x: hidden;
 `;
 
 export const SkilsContainer = styled.div`
@@ -19,7 +20,7 @@ export const SkilsContainer = styled.div`
     width: 100%;
     min-width: 320px;
     height: 100%;
-    padding: 2.8% 2.5%;
+    padding: 20px 20px;
     background-color: black;
 `;
 
@@ -53,8 +54,8 @@ export const Title = styled.h1`
         font-size: var(--Title-font-size-lg);
     }
 `;
+
 export const ElementsRightContainer = styled.div`
-    // background-color: violet;
     flex: 1;
     flex-direction: column;
     display: none;
@@ -64,6 +65,7 @@ export const ElementsRightContainer = styled.div`
         display: flex;
     }
 `;
+
 export const SubtitleContainerMobile = styled.div`
     width: 100%;
     font-size: var(--Subtitle-font-size-xs);
@@ -73,11 +75,13 @@ export const SubtitleContainerMobile = styled.div`
         display: none;
     }
 `;
+
 export const SubtitleContainer = styled.div`
     border-bottom: 1px solid white;
     max-width: 500px;
     text-align: end;
 `;
+
 export const Subtitle = styled.p`
     font-size: var(--Subtitle-font-size-xs);
     color: white;
@@ -98,7 +102,6 @@ export const Subtitle = styled.p`
 `;
 
 export const DescriptionContainer = styled.div`
-    // background-color: aqua;
     display: flex;
     flex: 1;
 `;
@@ -112,8 +115,38 @@ export const ButtonsContainer = styled.div`
 `;
 
 export const ListSkillContainer = styled.div`
-    background-color: bisque;
     display: flex;
     flex: 1.2;
-    padding: 15px 0;
+    padding: 15px 0 15px 30px;
+    gap: 30px;
+    align-items: center;
+    position:relative;
+    
+`;
+
+export const SkillsContainer = styled.div`
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    margin-left: -15px;
+    padding-left: 15px;
+    padding-right: 20px;
+`;
+
+export const BlurEffectLeft = styled.div`
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   width: 34px;
+   left: 0;
+   background: linear-gradient(90deg, rgba(0,0,0,1) 36%, rgba(0,212,255,0) 100%);
+`;
+
+export const BlurEffectRight = styled.div`
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   width: 30px;
+   right: -5px;
+   background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(0,0,0,1) 70%);
 `;

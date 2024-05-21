@@ -15,6 +15,15 @@
   --Subtitle-font-size-md: 25px;
   --Subtitle-font-size-lg: 30px;
 
+    /* Cards Fonts */
+  --CardTitle-font-size-xs: 20px;
+  --CardTitle-font-size-md: 25px;
+  --CardTitle-font-size-lg: 28px;
+
+  --CardSubtitle-font-size-xs: 12px;
+  --CardSubtitle-font-size-md: 15px;
+  --CardSubtitle-font-size-lg: 18px;
+
  /*  colors */
  --colors-bg-gradient: linear-gradient(90deg, #C4FF41 0%, #B3FFE4 100%);
 

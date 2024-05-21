@@ -9,11 +9,12 @@ export type CircleButtons = {
     height: number;
     width: number;
     direction: 'up' | 'down' | 'right' | 'left';
+    onClick: ()=> void;
 };
 
-const CircleButton = ({ src, alt, height, width, direction, srcAlt }: CircleButtons) => {
+const CircleButton = ({ src, alt, height, width, direction, srcAlt, onClick }: CircleButtons) => {
     return (
-        <Container className='arrowContainer'>
+        <Container className='arrowContainer' onClick={onClick}>
             <ImageContainer direction={direction}>
                 <ArrowImage
                     alt={alt}
