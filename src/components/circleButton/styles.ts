@@ -1,6 +1,5 @@
 // NextJS
 import Image from "next/image";
-import Link from "next/link";
 
 // Utils
 import { BREAKPOINTS } from "@/utils/constants/breakpoints";
@@ -40,35 +39,33 @@ const getDirection = (direction?: string) => {
 export const Container = styled.div``;
 
 export const ImageContainer = styled.div<{ direction: string }>`
-    display: flex;
-    position: relative;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    transform: ${({ direction }) => (getDirection(direction))};
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    cursor: pointer;
+  display: flex;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transform: ${({ direction }) => (getDirection(direction))};
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  cursor: pointer;
 
-    @media (min-width: ${BREAKPOINTS.SM}px) { 
-      width: 40px;
-      height: 40px;
-    }
-    @media (min-width:  ${BREAKPOINTS.MD}px) { 
-      width: 47px;
-      height: 47px;
-    }
-    @media (min-width:  ${BREAKPOINTS.LG}px) { 
-      width: 57px;
-      height: 57px;
-    }
-
-    .arrowContainer:hover & {
-      border: 1px solid black;
-    }
-
+  @media (min-width: ${BREAKPOINTS.SM}px) { 
+    width: 40px;
+    height: 40px;
+  }
+  @media (min-width:  ${BREAKPOINTS.MD}px) { 
+    width: 47px;
+    height: 47px;
+  }
+  @media (min-width:  ${BREAKPOINTS.LG}px) { 
+    width: 57px;
+    height: 57px;
+  }
+  .arrowContainer:hover & {
+    border: 1px solid black;
+  }
 `;
 
 export const ArrowImage = styled(Image)`
@@ -96,17 +93,17 @@ export const AnimatedDiv = styled.div`
   justify-content: center;
   align-content: center;
   @media (min-width: ${BREAKPOINTS.SM}px) { 
-      width: 40px;
-      height: 40px;
-    }
-    @media (min-width:  ${BREAKPOINTS.MD}px) { 
-      width: 47px;
-        height: 47px;
-    }
-    @media (min-width:  ${BREAKPOINTS.LG}px) { 
-      width: 57px;
-      height: 57px;
-    }
+    width: 40px;
+    height: 40px;
+  }
+  @media (min-width:  ${BREAKPOINTS.MD}px) { 
+    width: 47px;
+    height: 47px;
+  }
+  @media (min-width:  ${BREAKPOINTS.LG}px) { 
+    width: 57px;
+    height: 57px;
+  }
   .arrowContainer:hover & {
     opacity: 1;
     animation: ${moveAnimation} 0.2s linear forwards;

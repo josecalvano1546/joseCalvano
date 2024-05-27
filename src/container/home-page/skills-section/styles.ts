@@ -25,14 +25,12 @@ export const SkilsContainer = styled.div`
 `;
 
 export const ElementsContainer = styled.div`
-    // background-color: aliceblue;
     display: flex;
     flex: 1;
     flex-direction: column;
 `;
 
 export const ElementsLeftContainer = styled.div`
-    //background-color: yellowgreen;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -98,7 +96,6 @@ export const Subtitle = styled.p`
     @media (min-width:  ${BREAKPOINTS.LG}px) { 
         font-size: var(--Subtitle-font-size-lg);
     }
-
 `;
 
 export const DescriptionContainer = styled.div`

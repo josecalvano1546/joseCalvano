@@ -116,13 +116,12 @@ export const ButtonText = styled.p`
     font-size: var(--Subtitle-font-size-sm);
   }
   @media (min-width:  ${BREAKPOINTS.MD}px) { 
-     font-size: var(--Subtitle-font-size-md);
+    font-size: var(--Subtitle-font-size-md);
   }
 `;
 
 export const IconContainer = styled.div`
   --slide-up-y: ${slideUpY.xs};
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,11 +134,9 @@ export const IconContainer = styled.div`
     opacity: 1;
     animation: ${slideInIcon} 0.6s forwards;
   }
-
   &:not(:hover) {
     animation: ${slideOutIcon} 0.6s forwards;
   }
-
   @media (min-width: ${BREAKPOINTS.SM}px) { 
     --slide-up-y: ${slideUpY.sm};
     width: 35px;

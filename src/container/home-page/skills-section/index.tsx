@@ -18,8 +18,10 @@ import CircleButton from "@/components/circleButton";
 import fonts from "../../../../public/fonts";
 
 // Assets
-import { ArrowLeft, ArrowRight } from "../../../../public/icons/Icons";
+import { ArrowRight } from "../../../../public/icons/Icons";
 import SkillsCard from "@/components/skillsCard";
+
+// Utils
 import { cards } from "./data";
 
 interface ComponentProps {
