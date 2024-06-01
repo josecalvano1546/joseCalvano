@@ -11,6 +11,7 @@ export const SectionContainer = styled.section`
     background-color: white;
     border-top: 1px solid black;
     overflow-x: hidden;
+    z-index: -1;
 `;
 
 export const SkilsContainer = styled.div`
@@ -22,6 +23,7 @@ export const SkilsContainer = styled.div`
     height: 100%;
     padding: 20px 20px;
     background-color: black;
+    z-index: 2;
 `;
 
 export const ElementsContainer = styled.div`
