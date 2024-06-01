@@ -3,7 +3,6 @@ import Image from "next/image";
 import { BREAKPOINTS } from "@/utils/constants/breakpoints";
 
 export const SectionContainer = styled.section`
-    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;

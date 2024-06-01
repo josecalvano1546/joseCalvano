@@ -1,6 +1,6 @@
 // Fonts
 import localFont from 'next/font/local';
-import { Roboto } from 'next/font/google';
+import { Rubik } from 'next/font/google';
 import { NextFont } from 'next/dist/compiled/@next/font';
 
 // Utils
@@ -65,14 +65,14 @@ const BoringSansB = localFont({
     }
   ],
 });
-const RobotoFont = Roboto({
+const RubikFont = Rubik({
   weight: ['400', '500', '700', '900'],
   subsets: ['latin'],
 });
 
 const Fonts: Record<string, NextFont> = {
   BoringSansB,
-  RobotoFont,
+  RubikFont,
 };
 
 export default (font = 'BoringSansB') => Fonts[font];

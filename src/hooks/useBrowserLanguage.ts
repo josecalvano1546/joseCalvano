@@ -9,7 +9,7 @@ import constate from "constate";
 // Translations
 import i18n from "@/utils/languages/i18n";
 
-export const DefaultBrowserLanguageState = "EN";
+export const DefaultBrowserLanguageState = "ES";
 
 const availableLanguages = [
   "EN",

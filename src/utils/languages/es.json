@@ -14,5 +14,35 @@
       "PROFESION_SECOND_PART": "Software.",
       "DESCRIPTION_SUBTITLE": "Construyo aplicaciones inmersivas y fáciles de usar que a los usuarios les encanta.",
       "BUTTON_DESCRIPTION": "Descargar CV"
+  },
+  "SKILLS":{
+    "SECTION_NAME": "Porque Elegirme",
+    "TITLE_FIRST_PART": "Mi Lista de",
+    "TITLE_SECOND_PART": "Habilidades",
+    "SUBTITLE": "Soy desarrollador full-stack con más de cuatro años de experiencia.",
+    "CARD_1":{
+      "TITLE": "HTML & CSS",
+      "SUBTITLE": "Experiencia en crear páginas web con HTML5 y CSS3, aplicando diseño responsivo para que se vean bien en cualquier dispositivo."
+    },
+    "CARD_2":{
+      "TITLE": "JavaScript",
+      "SUBTITLE": "Habilidades en JavaScript (ES6+), incluyendo manipulación del DOM, eventos y creación de funciones asíncronas."
+    },
+    "CARD_3":{
+      "TITLE": "React & React Native",
+      "SUBTITLE": "Desarrollo de interfaces de usuario dinámicas con React.js y apps móviles multiplataforma con React Native."
+    },
+    "CARD_4":{
+      "TITLE": "Next.js",
+      "SUBTITLE": "Uso de Next.js para construir aplicaciones web con renderizado del lado del servidor (SSR) y generación de sitios estáticos (SSG)."
+    },
+    "CARD_5":{
+      "TITLE": "Node.js",
+      "SUBTITLE": " Desarrollo del lado del servidor con Node.js, incluyendo creación de API RESTful y manejo de servidores con Express.js."
+    },
+    "CARD_6":{
+      "TITLE": "MongoDB",
+      "SUBTITLE": "Experiencia en usar MongoDB para almacenar y gestionar datos en aplicaciones, con conocimientos en diseño de esquemas y consultas eficientes."
+    }
   }
 }

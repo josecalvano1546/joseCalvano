@@ -1,8 +1,8 @@
 // Styles
 import { AnimatedDiv, ArrowIcon, ButtonContainer, ButtonText, IconContainer } from "./styles";
 
-// Sources
-import Arrow from '/public/icons/arrow.svg';
+// Assets
+import { ArrowRight } from "../../../public/icons/Icons";
 
 // Type
 type SocialButtons = {
@@ -14,7 +14,7 @@ const TextButton = ({ description, href }: SocialButtons) => {
     return (
         <ButtonContainer className="buttonContainer" href={href}>
             <IconContainer>
-                <ArrowIcon src={Arrow} alt="arrow icon" />
+                <ArrowIcon src={ArrowRight('black')} alt="arrow icon" width={21} height={8} />
             </IconContainer>
             <ButtonText>
                 {description}
