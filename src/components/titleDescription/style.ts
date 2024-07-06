@@ -21,13 +21,13 @@ export const TitleDescriptionContainer = styled.div`
   flex-direction: row;
 `;
 
-export const CircleContainer = styled.div`
+export const CircleContainer = styled.div<{$color: string}>`
   position: relative;
   display: flex;
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  border: 1px solid white;
+  border: ${({ $color }) =>` 1px solid ${$color}`}; 
   justify-content: center;
   align-items: center;  
   overflow: hidden;
@@ -75,9 +75,9 @@ export const ArrowIcon = styled(Image)`
   }
 `;
 
-export const DescriptionContainer = styled.div`
+export const DescriptionContainer = styled.div<{$color: string}>`
   display: flex;
-  border: 1px solid white;
+  border: ${({ $color }) =>` 1px solid ${$color}`}; 
   height: 35px;
   border-radius: 50px;
   justify-content: center;
@@ -88,11 +88,11 @@ export const DescriptionContainer = styled.div`
   }
 `;
 
-export const Description = styled.p`
+export const Description = styled.p<{$color: string}>`
   font-size: var(--Subtitle-font-size-xs);
   font-weight: 400;
-  margin: 4px 10px 0 10px;
-  color: white;
+  margin-top: 3px;
+  color: ${({ $color }) => $color};
   @media (min-width:  ${BREAKPOINTS.SM}px) { 
     font-size: var(--Subtitle-font-size-sm);
   }

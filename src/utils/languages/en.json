@@ -44,6 +44,30 @@
       "TITLE": "MongoDB",
       "SUBTITLE": "Experience using MongoDB to store and manage data in applications, with knowledge in schema design and efficient queries."
     }
-  }
-
+  },
+  "ABOUT":{
+    "SECTION_NAME": "About",
+    "GRETING": "I’ve been",
+    "PROFESION": "Developing",
+    "SECTION_TITLE_FIRST_PART": "software since",
+    "SECTION_TITLE_SECOND_PART": "2018",
+    "SUBTITLE": "I’m professional full-stack developer with over six years of hands-on experience in web and mobile application development.",
+    "SUB_SECTION": "Experience",
+    "SUB_SECTION_TITLE": "My work experience",
+    "CARD_1": {
+      "DATE": "March 2022 - Currently",
+      "TITLE": "Litebox",
+      "SUBTITLE": "Developed responsive web interfaces, created RESTful APIs, and maintained NoSQL databases."
+    },
+    "CARD_2": {
+      "DATE": "Feb 2020 - Feb 2022",
+      "TITLE": "Banco de corrientes S.A",
+      "SUBTITLE": "Identified requirements, conducted UI/UX design, and contributed to mobile banking app development."
+    },
+    "CARD_3": {
+      "DATE": "Jan 2018 - Feb 2020",
+      "TITLE": "Freelance Web Developer",
+      "SUBTITLE": "Designed and developed responsive websites for various platforms using HTML5, CSS3, and JavaScript."
+    }
+    }
 }

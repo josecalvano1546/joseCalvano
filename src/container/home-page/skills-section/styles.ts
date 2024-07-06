@@ -9,15 +9,17 @@ export const SectionContainer = styled.section`
     height: 100vh;
     padding: 2.5% 2.5% 5% 2.5%;
     background-color: white;
-    border-top: 1px solid black;
     overflow-x: hidden;
     z-index: -1;
+    @media (max-width: ${BREAKPOINTS.MD}px) { 
+        padding: 2.5% 0;
+    }
 `;
 
 export const SkilsContainer = styled.div`
     display: flex;
     flex-direction: column;
-    border-radius: 30px;
+    border-radius: 20px;
     width: 100%;
     min-width: 320px;
     height: 100%;
