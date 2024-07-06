@@ -7,20 +7,21 @@ import PhotoIcon from '../../../public/icons/sectionImg.jpeg';
 
 interface MyComponentProps {
     description: string;
+    color: string;
 }
 
-const TitleDescription: React.FC<MyComponentProps> = ({ description }) => {
+const TitleDescription: React.FC<MyComponentProps> = ({ description, color }) => {
 
     return (
         <TitleDescriptionContainer>
-            <CircleContainer className='circleContainer'>
-                <ArrowIcon src={ArrowDown('white')} alt='Arrow'  width={8} height={21}/>
+            <CircleContainer className='circleContainer' $color={color}>
+                <ArrowIcon src={ArrowDown(color)} alt='Arrow'  width={8} height={21}/>
                 <AnimatedDiv>
                     <MyIcon src={PhotoIcon} alt='My icon'/>
                 </AnimatedDiv>
             </CircleContainer>
-            <DescriptionContainer>
-                <Description>{description}</Description>
+            <DescriptionContainer $color={color}>
+                <Description $color={color}>{description}</Description>
             </DescriptionContainer>
         </TitleDescriptionContainer>
     )

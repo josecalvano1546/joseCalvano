@@ -12,7 +12,7 @@
       "NAME": "José Calvano",
       "PROFESION_FIRST_PART": "Ingeniero de",
       "PROFESION_SECOND_PART": "Software.",
-      "DESCRIPTION_SUBTITLE": "Construyo aplicaciones inmersivas y fáciles de usar que a los usuarios les encanta.",
+      "DESCRIPTION_SUBTITLE": "Construyo aplicaciones inmersivas fáciles de usar y que a los usuarios les encanta.",
       "BUTTON_DESCRIPTION": "Descargar CV"
   },
   "SKILLS":{
@@ -43,6 +43,31 @@
     "CARD_6":{
       "TITLE": "MongoDB",
       "SUBTITLE": "Experiencia en usar MongoDB para almacenar y gestionar datos en aplicaciones, con conocimientos en diseño de esquemas y consultas eficientes."
+    }
+  },
+  "ABOUT":{
+    "SECTION_NAME": "Sobre mi",
+    "GRETING": "Trabajo",
+    "PROFESION": "Desarrollando",
+    "SECTION_TITLE_FIRST_PART": "software desde",
+    "SECTION_TITLE_SECOND_PART": "2018",
+    "SUBTITLE": "Soy desarrollador full-stack profesional con más de seis años de experiencia práctica en el desarrollo de aplicaciones web y móviles.",
+    "SUB_SECTION": "Experiencia",
+    "SUB_SECTION_TITLE": "Mi experiencia de trabajo",
+    "CARD_1": {
+      "DATE": "March 2022 - Currently",
+      "TITLE": "Litebox",
+      "SUBTITLE": "Desarrollé interfaces web responsivas, creé APIs RESTful y mantuve bases de datos NoSQL."
+    },
+    "CARD_2": {
+      "DATE": "Feb 2020 - Feb 2022",
+      "TITLE": "Banco de corrientes S.A",
+      "SUBTITLE": "Identifiqué requisitos, realicé diseño UI/UX y colaboré en el desarrollo de aplicaciones móviles bancarias."
+    },
+    "CARD_3": {
+      "DATE": "Jan 2018 - Feb 2020",
+      "TITLE": "Desarrollador Web Freelance",
+      "SUBTITLE": "Diseñé y desarrollé sitios web responsivos para varias plataformas utilizando HTML5, CSS3 y JavaScript."
     }
   }
 }

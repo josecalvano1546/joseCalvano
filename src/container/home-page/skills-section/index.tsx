@@ -52,7 +52,7 @@ const SkillsSection: React.FC<ComponentProps> = ({ constainerRef }) => {
                 <ElementsContainer>
                     <DescriptionContainer>
                         <ElementsLeftContainer>
-                            <TitleDescription description={t("SECTION_NAME")} />
+                            <TitleDescription description={t("SECTION_NAME")} color="white" />
                             <TitleContent>
                                 <Title>
                                     {t("TITLE_FIRST_PART")}

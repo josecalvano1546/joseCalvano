@@ -24,6 +24,10 @@
   --CardSubtitle-font-size-md: 15px;
   --CardSubtitle-font-size-lg: 18px;
 
+  --CardDate-font-size-xs: 10px;
+  --CardDate-font-size-md: 13px;
+  --CardDate-font-size-lg: 14px;
+
  /*  colors */
  --colors-bg-gradient: linear-gradient(90deg, #C4FF41 0%, #B3FFE4 100%);
 
@@ -38,8 +42,9 @@ body {
   width: 100vw;
   overflow-x: hidden;
   min-height: 100%;
-  min-width: 400px;
+  min-width: 320px;
   ::-webkit-scrollbar {
     width: 0;
+    overflow-x: hidden;
   }
 }
