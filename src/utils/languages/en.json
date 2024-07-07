@@ -69,5 +69,27 @@
       "TITLE": "Freelance Web Developer",
       "SUBTITLE": "Designed and developed responsive websites for various platforms using HTML5, CSS3, and JavaScript."
     }
+  },
+  "EDUCATION":{
+    "SECTION_NAME": "Education",
+    "SECTION_TITLE": "Software Developer Professional",
+    "CARD_1": {
+      "DATE": "2015 - 2021",
+      "TITLE": "Information System Engineer",
+      "SUBTITLE_ROW1": "Universidad tecnológica Nacional (U.T.N).",
+      "SUBTITLE_ROW2": "Facultad Regional Resistencia - Argentina"
+    },
+    "CARD_2": {
+      "DATE": "2018 - Present",
+      "TITLE": "E-learning platform",
+      "SUBTITLE_ROW1": "Udemy",
+      "SUBTITLE_ROW2": "React.JS | Node.JS | Firebase"
+    },
+    "CARD_3": {
+      "DATE": "2018 - Present",
+      "TITLE": "E-learning platform",
+      "SUBTITLE_ROW1": "Platzi",
+      "SUBTITLE_ROW2": "Javascript | Node.JS | React Native"
     }
+  }
 }

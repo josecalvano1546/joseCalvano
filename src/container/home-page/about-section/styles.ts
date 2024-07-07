@@ -129,10 +129,13 @@ export const ExperienceContainer = styled.div`
     width: 100%;
     min-width: 320px;
     background-color: black;
-    border-radius: 20px;
     margin-top: 35px;
     padding: 20px 20px;
     text-align: center;
+
+    @media (min-width:  ${BREAKPOINTS.MD}px) { 
+        border-radius: 20px;
+    }
 `;
 
 export const CardExperienceContainer = styled.div`

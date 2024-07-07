@@ -69,5 +69,27 @@
       "TITLE": "Desarrollador Web Freelance",
       "SUBTITLE": "Diseñé y desarrollé sitios web responsivos para varias plataformas utilizando HTML5, CSS3 y JavaScript."
     }
+  },
+  "EDUCATION":{
+    "SECTION_NAME": "Educación",
+    "SECTION_TITLE": "Desarrollador de Software Profesional",
+    "CARD_1": {
+      "DATE": "2015 - 2021",
+      "TITLE": "Ingeniería en Sistemas de Información",
+      "SUBTITLE_ROW1": "Universidad tecnológica Nacional (U.T.N).",
+      "SUBTITLE_ROW2": "Facultad Regional Resistencia - Argentina"
+    },
+    "CARD_2": {
+      "DATE": "2018 - Presente",
+      "TITLE": "Platforma E-learning",
+      "SUBTITLE_ROW1": "Udemy",
+      "SUBTITLE_ROW2": "React.JS | Node.JS | Firebase"
+    },
+    "CARD_3": {
+      "DATE": "2018 - Presente",
+      "TITLE": "Platforma E-learning",
+      "SUBTITLE_ROW1": "Platzi",
+      "SUBTITLE_ROW2": "Javascript | Node.JS | React Native"
+    }
   }
 }

@@ -19,13 +19,16 @@ export const SectionContainer = styled.section`
 export const SkilsContainer = styled.div`
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
     width: 100%;
     min-width: 320px;
     height: 100%;
     padding: 20px 20px;
     background-color: black;
     z-index: 2;
+
+    @media (min-width:  ${BREAKPOINTS.MD}px) { 
+        border-radius: 20px;
+    }
 `;
 
 export const ElementsContainer = styled.div`

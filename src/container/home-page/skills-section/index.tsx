@@ -73,8 +73,8 @@ const SkillsSection: React.FC<ComponentProps> = ({ constainerRef }) => {
                                 <Subtitle>{t("SUBTITLE")}</Subtitle>
                             </SubtitleContainer>
                             <ButtonsContainer>
-                                <CircleButton src={ArrowRight('white')} srcAlt={ArrowRight('black')} alt="Left Button" height={8} width={21} direction="left" onClick={scrollLeft}/>
-                                <CircleButton src={ArrowRight('white')} srcAlt={ArrowRight('black')} alt="Left Button" height={8} width={21} direction="right" onClick={scrollRight}/>
+                                <CircleButton src={ArrowRight('white')} srcAlt={ArrowRight('black')} alt="Left Button" height={8} width={21} direction="left" onClick={scrollLeft} borderColor={'white'}/>
+                                <CircleButton src={ArrowRight('white')} srcAlt={ArrowRight('black')} alt="Left Button" height={8} width={21} direction="right" onClick={scrollRight} borderColor={'white'}/>
                             </ButtonsContainer>
                         </ElementsRightContainer>
                     </DescriptionContainer>
