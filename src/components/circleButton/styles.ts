@@ -38,7 +38,7 @@ const getDirection = (direction?: string) => {
 
 export const Container = styled.div``;
 
-export const ImageContainer = styled.div<{ direction: string }>`
+export const ImageContainer = styled.div<{ direction: string, borderColor:string }>`
   display: flex;
   position: relative;
   width: 35px;
@@ -48,7 +48,7 @@ export const ImageContainer = styled.div<{ direction: string }>`
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
+  border: ${({ borderColor }) => `1px solid ${borderColor}`};
   cursor: pointer;
 
   @media (min-width: ${BREAKPOINTS.SM}px) { 

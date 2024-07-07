@@ -30,7 +30,8 @@
 
  /*  colors */
  --colors-bg-gradient: linear-gradient(90deg, #C4FF41 0%, #B3FFE4 100%);
-
+ --colors-green: #C4FF41;
+ --colors-lightBlue: #B3FFE4;
 }
 * {
   box-sizing: border-box;
