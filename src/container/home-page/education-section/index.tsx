@@ -12,9 +12,9 @@ import fonts from "../../../../public/fonts";
 import { BackgroundImage, BlurContainer, CircleContainer, EducationCardContainer, ImageContainer, InformationContainer, LavaBackground, MyIcon, SectionContainer, SectionTitleContainer, Title, TitleContainer, TitleLine } from "./styles";
 
 // Assets
-import bg from '/public/educationBackground.png';
+import bg from '/public/background/educationBackground.webp';
 import { ArrowRight } from "../../../../public/icons/Icons";
-import PhotoIcon from '../../../../public/icons/computerMe.png';
+import PhotoIcon from '../../../../public/icons/computerMe.webp';
 
 // Components
 import TitleDescription from "@/components/titleDescription";

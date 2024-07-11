@@ -110,7 +110,7 @@ export const SocialsButtonsContainers = styled.div`
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
-    gap: 5px;
+    gap: 20px;
     width: 100%;
 `;
 

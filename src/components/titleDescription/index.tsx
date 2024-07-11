@@ -3,7 +3,7 @@ import { AnimatedDiv, ArrowIcon, CircleContainer, Description, DescriptionContai
 
 // Assets
 import { ArrowDown } from "../../../public/icons/Icons";
-import PhotoIcon from '../../../public/icons/sectionImg.jpeg';
+import PhotoIcon from '../../../public/icons/sectionImg.webp';
 
 interface MyComponentProps {
     description: string;
