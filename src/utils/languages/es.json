@@ -91,5 +91,29 @@
       "SUBTITLE_ROW1": "Platzi",
       "SUBTITLE_ROW2": "Javascript | Node.JS | React Native"
     }
+  },
+  "PORTFOLIO": {
+    "SECTION_NAME": "Portafolio",
+    "TITLE": "Echa un vistazo a los últimos proyectos que he realizado",
+    "CARD_1": {
+      "TITLE": "Liteflix",
+      "SUBTITLE_ROW1": "Aplicación mobile creada como parte del desafío técnico para ingresar a Litebox.",
+      "SUBTITLE_ROW2": "Tecnologías: React Native"
+    },
+    "CARD_2": {
+      "TITLE": "Por vos",
+      "SUBTITLE_ROW1": "Aplicación mobile creada para el proyecto final de la facultad.",
+      "SUBTITLE_ROW2": "Tecnologías: React Native, React, Firebase"
+    },
+    "CARD_3": {
+      "TITLE": "Surf project",
+      "SUBTITLE_ROW1": "Aplicación web creada como parte del curso de animaciones web.",
+      "SUBTITLE_ROW2": "Tecnologías: React, GSAP"
+    },
+    "CARD_4": {
+      "TITLE": "Booking",
+      "SUBTITLE_ROW1": "Aplicación de gestión de reservas creada como parte del curso de React Native para el Banco de Corrientes.",
+      "SUBTITLE_ROW2": "Tecnologías: React Native"
+    }
   }
 }

@@ -25,7 +25,6 @@ const ExperienceCard = ({ key, date, title, subtitle}: ExperienceCardType) =>{
             <DescriptionContainer className={fonts('RubikFont').className}>
                 <Description>{subtitle}</Description>
             </DescriptionContainer>
-
         </CardContainer>
     )
 }

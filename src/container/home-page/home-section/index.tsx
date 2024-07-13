@@ -13,10 +13,10 @@ import SocialsButton from "@/components/socialsButton";
 import TextButton from "@/components/textButton";
 
 // Assets
-import bg from '/public/homeBackground.png';
-import Github from '/public/icons/github.png';
-import Instagram from '/public/icons/instagram.png';
-import Linkeding from '/public/icons/linkedin.png';
+import bg from '/public/background/homeBackground.webp';
+import Github from '/public/icons/github.webp';
+import Instagram from '/public/icons/instagram.webp';
+import Linkeding from '/public/icons/linkedin.webp';
 
 // Fonts
 import fonts from "../../../../public/fonts";
@@ -84,14 +84,14 @@ const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
                         <Title className="title"> {t("PROFESION_SECOND_PART")} </Title>
                     </TitleLine>
                 </TitleContainer>
-                <SubtitleMobileContainer>
+                <SubtitleMobileContainer className={fonts('RubikFont').className}>
                     <Subtitle className="secondaryElements"> {t("DESCRIPTION_SUBTITLE")}</Subtitle>
                 </SubtitleMobileContainer>
             </PresentationContainer>
 
             <SocialContainer>
                 <SocialButtons>
-                    <SocialText>
+                    <SocialText className={fonts('RubikFont').className}>
                         <Subtitle className="secondaryElements"> @jose_calvano </Subtitle>
                     </SocialText>
                     <SocialsButtonsContainers>
@@ -101,7 +101,7 @@ const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
                     </SocialsButtonsContainers>
                 </SocialButtons>
                 <SubtitleCV>
-                    <SubtitleContainer>
+                    <SubtitleContainer className={fonts('RubikFont').className}>
                         <Subtitle className="secondaryElements"> {t("DESCRIPTION_SUBTITLE")}</Subtitle>
                     </SubtitleContainer>
                     <ButtonCV className="secondaryElements">
