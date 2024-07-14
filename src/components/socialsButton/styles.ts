@@ -17,13 +17,13 @@ const moveAnimation = keyframes`
   }
 `;
 
-export const ImageContainer = styled(Link)`
+export const ImageContainer = styled(Link)<{transform: string}>`
   display: flex;
   position: relative;
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  transform: rotate(270deg);
+  transform: ${({ transform }) => (`rotate(${transform})`)};
   overflow: hidden;
   @media (min-width: ${BREAKPOINTS.SM}px) { 
     width: 40px;
@@ -42,13 +42,13 @@ export const ImageContainer = styled(Link)`
 export const SocialImage = styled(Image)`
 `;
 
-export const AnimatedDiv = styled.div`
+export const AnimatedDiv = styled.div<{background: string}>`
   position: absolute;
   transform: translateY(100%);
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: var(--colors-bg-gradient);
+  background: ${({ background }) => (background)};
   z-index: -1;
   @media (min-width: ${BREAKPOINTS.SM}px) { 
     width: 40px;
