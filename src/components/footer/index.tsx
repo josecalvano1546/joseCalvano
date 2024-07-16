@@ -25,7 +25,6 @@ const Footer = () => {
         repeat: -1,
         yoyo: true,
         ease: 'sine.inOut',
-        // Puedes agregar más propiedades para personalizar la animación
       });
     }, []);
 
