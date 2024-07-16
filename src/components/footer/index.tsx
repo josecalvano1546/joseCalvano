@@ -2,16 +2,18 @@
 
 // NextJS
 import React, { useEffect, useRef } from "react";
+import gsap from "gsap";
 
 // Styles
 import { BackgroundImage, FooterContainer, LavaBackground, SocialsButtonsContainers } from "./styles";
-import gsap from "gsap";
 
 // Assets
 import bg from '../../../public/background/footerBg.webp';
 import Github from '/public/icons/github.webp';
 import Instagram from '/public/icons/instagram.webp';
 import Linkeding from '/public/icons/linkedin.webp';
+
+// Components
 import SocialsButton from "../socialsButton";
 
 const Footer = () => {
