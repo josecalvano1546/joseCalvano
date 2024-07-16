@@ -95,9 +95,9 @@ const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
                         <Subtitle className="secondaryElements"> @jose_calvano </Subtitle>
                     </SocialText>
                     <SocialsButtonsContainers>
-                        <SocialsButton href="https://www.linkedin.com/in/josecalvano/" src={Linkeding} alt="linkeding icon" />
-                        <SocialsButton href="https://www.instagram.com/jose_calvano/" src={Instagram} alt="instagram icon" />
-                        <SocialsButton href="https://github.com/josecalvano1546" src={Github} alt="github icon" />
+                        <SocialsButton href="https://www.linkedin.com/in/josecalvano/" src={Linkeding} alt="linkeding icon" transform='270deg' background='var(--colors-bg-gradient)' />
+                        <SocialsButton href="https://www.instagram.com/jose_calvano/" src={Instagram} alt="instagram icon" transform='270deg' background='var(--colors-bg-gradient)' />
+                        <SocialsButton href="https://github.com/josecalvano1546" src={Github} alt="github icon" transform='270deg' background='var(--colors-bg-gradient)' />
                     </SocialsButtonsContainers>
                 </SocialButtons>
                 <SubtitleCV>

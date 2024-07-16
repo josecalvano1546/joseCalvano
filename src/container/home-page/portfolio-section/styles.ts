@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { BREAKPOINTS } from "@/utils/constants/breakpoints";
 
 export const SectionContainer = styled.section`
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -10,7 +11,7 @@ export const SectionContainer = styled.section`
     padding: 2.5% 2.5% 5% 2.5%;
     background-color: white;
     overflow-x: hidden;
-    z-index: -1;
+    z-index: -2;
     @media (max-width: ${BREAKPOINTS.MD}px) { 
         padding: 2.5% 0;
     }
