@@ -5,8 +5,6 @@ import AboutSection from "@/container/home-page/about-section";
 import EducationSection from "@/container/home-page/education-section";
 import PortfolioSection from "@/container/home-page/portfolio-section";
 
-// Components
-import Footer from "@/components/footer";
 
 // Background
 import OvalBg from "../../public/background/ovalBg.webp"
@@ -14,14 +12,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <main style={{marginTop:'-80px'}}>
       <HomeSection/>
       <SkillsSection/>
       <Image src={OvalBg} alt='Oval Bg' style={{width:'100%', position:"absolute", top:'165vh'}}/>
       <AboutSection/>
       <EducationSection/>
       <PortfolioSection />
-      <Footer/>
     </main>
   );
 }

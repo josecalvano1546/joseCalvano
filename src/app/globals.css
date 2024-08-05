@@ -38,7 +38,9 @@
   padding: 0;
   margin: 0;
 }
-
+a.active {
+  font-weight: 600;
+}
 body {
   width: 100vw;
   overflow-x: hidden;

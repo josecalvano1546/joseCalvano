@@ -19,7 +19,7 @@ import PortfolioCard from "@/components/portfolioCard";
 const PortfolioSection = () => {
     const { t } = useTranslation("PORTFOLIO");
  return(
-    <SectionContainer className={fonts().className}>
+    <SectionContainer id="portfolio" className={fonts().className}>
           <PortfolioContainer>
             <TitleDescription description={t("SECTION_NAME")} color="white" />
                 <TitleContent>

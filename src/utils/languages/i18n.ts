@@ -25,20 +25,9 @@ export const enum Language {
   ES = "ES",
 }
 
-export const dropdownLanguageList = [
-  {
-    key: Language.EN,
-    label: "English",
-  },
-  {
-    key: Language.ES,
-    label: "Spanish",
-  },
-];
-
 i18n.use(initReactI18next).init({
   resources,
-  lng: "EN",
+  lng: "ES",
   interpolation: {
     escapeValue: false,
   },

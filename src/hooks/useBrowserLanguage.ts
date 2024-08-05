@@ -23,10 +23,23 @@ const availableLanguages = [
   "EN-IE",
 ];
 
+const englishVariants = [
+  "EN",
+  "ES",
+  "EN-GB",
+  "EN-US",
+  "EN-AU",
+  "EN-CA",
+  "EN-NZ",
+  "EN-IN",
+  "EN-IE",
+];
+
 const STORED_LANGUAGE_KEY = "SELECTED_LANGUAGE";
 
 const useBrowserLanguage = () => {
-  const [browserLanguage, setBrowserLanguage] = useState<string>("EN");
+  const [browserLanguage, setBrowserLanguage] = useState<string>("ES");
+
   let savedLanguage: string | null = "";
   if (typeof window !== "undefined") {
     savedLanguage = localStorage.getItem(STORED_LANGUAGE_KEY);
@@ -44,8 +57,12 @@ const useBrowserLanguage = () => {
   useEffect(() => {
     let language: string = DefaultBrowserLanguageState;
     const browserLanguage = String(window.navigator.language).toUpperCase();
+
     if (availableLanguages.includes(browserLanguage)) {
       language = browserLanguage;
+      if(englishVariants.includes(browserLanguage)){
+        language = "EN";
+      }
     }
     if (savedLanguage) handleBrowserLanguage(savedLanguage);
     else handleBrowserLanguage(language);
