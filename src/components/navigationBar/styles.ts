@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import Image from "next/image";
 
 export const NavigationContainer = styled.div`
+position: relative;
   display: flex;
   width: 100%;
   height: 80px;
@@ -77,14 +78,14 @@ export const MobileNavigationContainer = styled.div`
   padding: 0 10px 0 10%;
 `;
 
-export const ModalContainer = styled.div`
+export const ModalContainer = styled.div<{isOpen: boolean}>`
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   opacity: 0;
-  z-index: 5;
+  z-index: ${({isOpen}) => (isOpen ? '5' : '-3' )};
 `;
 
 export const MobileImageContainer = styled.div`
@@ -113,9 +114,9 @@ export const MobileSectionsContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  // sm control
   gap: 50px;
   font-size: 38px;
+  padding-bottom: 100px;
 `;
 
 export const LanguagesIconContainer = styled.div`
@@ -129,11 +130,10 @@ export const LanguagesIcon = styled(Image)`
   height:100%;
 `;
 
-export const LanguageButton = styled.button`
-  all: unset;
+export const LanguageButton = styled.div`
   position: absolute;
   width: 100%;
-  bottom: 5vh;
+  bottom: 15vh;
   justify-content: center;
   display: flex;
   font-size: 18px;

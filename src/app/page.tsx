@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main style={{marginTop:'-80px'}}>
+    <main>
       <HomeSection/>
       <SkillsSection/>
       <Image src={OvalBg} alt='Oval Bg' style={{width:'100%', position:"absolute", top:'165vh'}}/>

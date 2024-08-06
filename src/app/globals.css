@@ -41,6 +41,13 @@
 a.active {
   font-weight: 600;
 }
+main {
+  margin-top: -80px;
+
+  @media (min-width: 768px) { 
+    margin-top: 0;
+  }
+}
 body {
   width: 100vw;
   overflow-x: hidden;

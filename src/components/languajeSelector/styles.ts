@@ -33,24 +33,40 @@ export const LanguageContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 330px;
-    bottom: 10vh;
+    bottom: 21vh;
     height: 130px;
-    background-color:  #D9D9D959;
+    background-color:  #f2f2f2;
     justify-content: center;
     font-size: 18px;
     z-index: 10;
     border-radius: 10px;
     backdrop-filter: blur(100px);
     opacity: 0;
+    @media (min-width: 768px) { 
+      right:25px;
+      top: 12vh;
+      bottom: 0;
+    }
+   
+
 `;
 
 export const DialogIconContainer = styled.div`
     position: absolute;
-    bottom:-18px;
+    bottom: -18px;
     left: 50%;
     transform: translate(-50%, 0);
     height: 20px;
     width: 25px;
+
+    @media (min-width: 768px) { 
+      bottom: inherit;
+      left: inherit;
+      top: -18px;
+      right: 20px;
+      transform: rotate(180deg);
+    }
+
 `;
 
 export const DialogIcon = styled(Image)`

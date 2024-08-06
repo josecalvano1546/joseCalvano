@@ -6,6 +6,8 @@ import React, { useEffect, useRef, useState } from "react";
 // Libraries
 import gsap from "gsap"; 
 import Hamburger from "hamburger-react";
+import { useTranslation } from "react-i18next";
+import LanguajeSelector from "../languajeSelector";
 
 // Styles
 import { LanguageButton, LanguagesIcon, LanguagesIconContainer, MobileBackgroundImage, MobileImageContainer, MobileLogoContainer, MobileMenuIcon, MobileNavigationContainer, MobileSectionsContainer, ModalContainer, MyIcon} from "./styles";
@@ -18,8 +20,8 @@ import bg from '/public/background/homeBackground.webp';
 import RenderSections from "./renderSections";
 import JCIcon from '../../../public/icons/JC.svg';
 import LanguageIcon from '../../../public/icons/LanguageIcon.svg';
-import LanguajeSelector from "../languajeSelector";
-import { useTranslation } from "react-i18next";
+
+
 
 const MobileNavigation = () =>{
     const { browserLanguage } = useBrowserLanguageState();
@@ -34,7 +36,7 @@ const MobileNavigation = () =>{
   
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY > lastScrollY) {
+      if (window.scrollY > lastScrollY && window.scrollY > 10) {
         gsap.to(navbarRef.current, { y: -100, duration: 0.5 });
       } else {
         gsap.to(navbarRef.current, { y: 0, duration: 0.5 });
@@ -52,8 +54,11 @@ const MobileNavigation = () =>{
     const handleClick = () => {
         setOpen(!isOpen)
         if (isOpen) {
+          document.body.style.overflow = 'auto';
           gsap.to(divRef.current, { opacity: 0, duration: 0.3 });
+          setOpenDialog(false)
         } else {
+          document.body.style.overflow = 'hidden';
           gsap.to(divRef.current, { opacity: 1, duration: 0.4 });
         }
         setOpen(!isOpen);
@@ -72,7 +77,7 @@ const MobileNavigation = () =>{
 
         </MobileNavigationContainer>
 
-        <ModalContainer ref={divRef} isOpen={isOpen}>
+       <ModalContainer ref={divRef} isOpen={isOpen}>
             <MobileBackgroundImage
                 layout="fill"
                 alt="water_portrait"

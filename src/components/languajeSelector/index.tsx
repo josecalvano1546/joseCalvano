@@ -25,7 +25,6 @@ interface DialogsProps {
 }
 
 const LanguajeSelector: React.FC<DialogsProps> = ({ isOpenDialog, setOpenDialog }) => {
-    
     const { browserLanguage, handleBrowserLanguage } = useBrowserLanguageState();
     const { t } = useTranslation("LANGUAJES");
     const divRef = useRef(null);
