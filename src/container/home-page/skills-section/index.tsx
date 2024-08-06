@@ -47,7 +47,7 @@ const SkillsSection: React.FC<ComponentProps> = ({ constainerRef }) => {
     };
 
     return (
-        <SectionContainer className={fonts().className} >
+        <SectionContainer id="skills" className={fonts().className} >
             <SkilsContainer>
                 <ElementsContainer>
                     <DescriptionContainer>

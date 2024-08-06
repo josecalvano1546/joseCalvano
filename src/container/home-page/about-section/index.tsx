@@ -18,7 +18,7 @@ const AboutSection = () =>{
     const classes = `${rubikClass} highlight title`;
 
     return(
-        <SectionContainer className={fonts().className}>
+        <SectionContainer id="about" className={fonts().className}>
             <div style={{display:"flex", width:"100%", justifyContent:"flex-end", paddingRight:'2.5%'}}>
                 <TitleDescription description={t("SECTION_NAME")} color="black"/>
             </div>

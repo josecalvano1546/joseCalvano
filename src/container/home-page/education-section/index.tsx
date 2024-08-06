@@ -56,7 +56,7 @@ const EducationSection = () => {
     };
 
     return (
-        <SectionContainer className={fonts().className}>
+        <SectionContainer id="education" className={fonts().className}>
             <LavaBackground ref={lavaRef} />
             <BackgroundImage
                 objectFit="contain"

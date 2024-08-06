@@ -10,7 +10,11 @@ import StyledComponentsRegistry from "../lib/registry";
 
 // Providers
 import LanguageProviders from "@/providers/LanguageProviders";
-import ResolutionProviders from "@/providers/ResolutionProviders";
+
+// Components
+import Footer from "@/components/footer";
+import NavigationBar from "@/components/navigationBar";
+import Providers from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +32,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <StyledComponentsRegistry>
-          <LanguageProviders>{children}</LanguageProviders>
+          <Providers>
+            <NavigationBar />
+              {children}
+            <Footer />
+          </Providers>
         </StyledComponentsRegistry>
       </body>
     </html>

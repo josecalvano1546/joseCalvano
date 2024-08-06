@@ -67,7 +67,7 @@ const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
     }, { scope: constainerRef });
 
     return (
-        <SectionContainer className={fonts().className} ref={constainerRef}>
+        <SectionContainer id="home" className={fonts().className} ref={constainerRef}>
             <BackgroundImage
                 layout="fill"
                 alt="water_portrait"

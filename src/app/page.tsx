@@ -5,8 +5,6 @@ import AboutSection from "@/container/home-page/about-section";
 import EducationSection from "@/container/home-page/education-section";
 import PortfolioSection from "@/container/home-page/portfolio-section";
 
-// Components
-import Footer from "@/components/footer";
 
 // Background
 import OvalBg from "../../public/background/ovalBg.webp"
@@ -21,7 +19,6 @@ export default function Home() {
       <AboutSection/>
       <EducationSection/>
       <PortfolioSection />
-      <Footer/>
     </main>
   );
 }

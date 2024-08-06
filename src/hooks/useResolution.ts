@@ -6,6 +6,9 @@ import { useEffect, useState } from 'react';
 // Libraries
 import constate from 'constate';
 
+// Utils
+import { BREAKPOINTS } from '@/utils/constants/breakpoints';
+
 interface Response {
   resolution: number;
   isMobileResolution: boolean;
@@ -15,7 +18,7 @@ const useResolution = (): Response => {
   const [resolution, setResolution] = useState(0);
   const [isMobileResolution, setIsMobileResolution] = useState(false);
 
-  const checkIsMobile = (width: number) => width < 576;
+  const checkIsMobile = (width: number) => width < BREAKPOINTS.MD ; 
 
   const updateResolution = () => {
     const width = window.innerWidth;

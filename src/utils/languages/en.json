@@ -2,6 +2,7 @@
   "NAVBAR": {
     "HOME": "Home",
     "ABOUT": "About",
+    "SKILLS": "Skills",
     "EXPERIENCE": "Experience",
     "EDUCATION": "Education",
     "PORTFOLIO": "Portfolio",
@@ -115,5 +116,9 @@
       "SUBTITLE_ROW1": "Reservation management application created as part of the React Native course for the Banco de Corrientes.",
       "SUBTITLE_ROW2": "Technologies: React Native"
     }
+  },
+  "LANGUAJES":{
+    "EN": "English (United State)",
+    "ES": "Spanish (LATAM)"
   }
 }
