@@ -11,7 +11,6 @@ export const CardContainer = styled.div`
     border-radius: 20px;
 
     @media (min-width:  ${BREAKPOINTS.MD +1}px) { 
-        width: 49%;
         min-height: 250px;
     }
 `;

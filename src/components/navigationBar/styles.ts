@@ -31,8 +31,13 @@ export const NavigationBarContent = styled.div`
 
 export const NavList = styled(Link)`
   cursor: pointer;
-  color: black;
   margin: 0 20px;
+
+`;
+
+export const Text = styled.h3`
+  color: black;
+  mix-blend-mode: difference;
 `;
 
 export const ButtonsContent = styled.div`
@@ -78,14 +83,14 @@ export const MobileNavigationContainer = styled.div`
   padding: 0 10px 0 10%;
 `;
 
-export const ModalContainer = styled.div<{isOpen: boolean}>`
+export const ModalContainer = styled.div<{ isOpen: boolean }>`
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   opacity: 0;
-  z-index: ${({isOpen}) => (isOpen ? '5' : '-3' )};
+  z-index: ${({ isOpen }) => (isOpen ? '5' : '-3')};
 `;
 
 export const MobileImageContainer = styled.div`

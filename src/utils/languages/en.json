@@ -20,7 +20,7 @@
     "SECTION_NAME": "Why Choose Me",
     "TITLE_FIRST_PART": "My List of",
     "TITLE_SECOND_PART": "Skills",
-    "SUBTITLE":"I am full-stack developer with over four years of hands-on experience",
+    "SUBTITLE":"Full-stack developer specializing in creating responsive and dynamic application",
     "CARD_1":{
       "TITLE": "HTML & CSS",
       "SUBTITLE": "Experience in creating web pages with HTML5 and CSS3, applying responsive design to ensure they look good on any device."
@@ -52,7 +52,7 @@
     "PROFESION": "Developing",
     "SECTION_TITLE_FIRST_PART": "software since",
     "SECTION_TITLE_SECOND_PART": "2018",
-    "SUBTITLE": "I’m professional full-stack developer with over six years of hands-on experience in web and mobile application development.",
+    "SUBTITLE": "I’m professional full-stack developer with over five years of hands-on experience in web and mobile application development.",
     "SUB_SECTION": "Experience",
     "SUB_SECTION_TITLE": "My work experience",
     "CARD_1": {
@@ -63,7 +63,7 @@
     "CARD_2": {
       "DATE": "Feb 2020 - Feb 2022",
       "TITLE": "Banco de corrientes S.A",
-      "SUBTITLE": "Identified requirements, conducted UI/UX design, and contributed to mobile banking app development."
+      "SUBTITLE": "Identify functional and non-functional requirements, conducted UI/UX design, and contributed to mobile banking app development."
     },
     "CARD_3": {
       "DATE": "Jan 2018 - Feb 2020",
@@ -98,12 +98,12 @@
     "TITLE": "Take a look at the latest projects I've done",
     "CARD_1": {
       "TITLE": "Liteflix",
-      "SUBTITLE_ROW1": "Mobile application created as part of the technical challenge to join Litebox. ",
+      "SUBTITLE_ROW1": "Mobile application created as part of the technical challenge to join Litebox.",
       "SUBTITLE_ROW2": "Technologies: React Native"
     },
     "CARD_2": {
       "TITLE": "Por vos",
-      "SUBTITLE_ROW1": "Mobile application created for the final project of the faculty.",
+      "SUBTITLE_ROW1": "Mobile application created for the final project at the university.",
       "SUBTITLE_ROW2": "Technologies: React Native, React, Firebase"
     },
     "CARD_3": {

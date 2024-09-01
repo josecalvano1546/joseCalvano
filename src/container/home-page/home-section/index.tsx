@@ -31,6 +31,7 @@ interface ComponentProps {
 const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
 
     const { t } = useTranslation("HOME");
+    const { i18n } = useTranslation();
 
     useGSAP(() => {
         const t1 = gsap.timeline({repeatDelay: 1});
@@ -105,7 +106,7 @@ const HomeSection: React.FC<ComponentProps> = ({ constainerRef }) => {
                         <Subtitle className="secondaryElements"> {t("DESCRIPTION_SUBTITLE")}</Subtitle>
                     </SubtitleContainer>
                     <ButtonCV className="secondaryElements">
-                        <TextButton description={t("BUTTON_DESCRIPTION")} href="/cv/joseCalvanoCV.pdf"/>
+                        <TextButton description={t("BUTTON_DESCRIPTION")} href={`/cv/joseCalvanoCV_${i18n.language}.pdf`}/>
                     </ButtonCV>
                 </SubtitleCV>
             </SocialContainer>

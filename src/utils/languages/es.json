@@ -4,7 +4,7 @@
     "ABOUT": "Sobre mi",
     "SKILLS": "Habilidades",
     "EXPERIENCE": "Experiencia",
-    "EDUCATION": "Educacion",
+    "EDUCATION": "Educación",
     "PORTFOLIO": "Portafolio",
     "CONTACT": "Contacto"
   },
@@ -20,10 +20,10 @@
     "SECTION_NAME": "Porque Elegirme",
     "TITLE_FIRST_PART": "Mi Lista de",
     "TITLE_SECOND_PART": "Habilidades",
-    "SUBTITLE": "Soy desarrollador full-stack con más de cuatro años de experiencia.",
+    "SUBTITLE": "Desarrollador full-stack especializado en crear aplicaciones dinámicas y adaptativas",
     "CARD_1":{
       "TITLE": "HTML & CSS",
-      "SUBTITLE": "Experiencia en crear páginas web con HTML5 y CSS3, aplicando diseño responsivo para que se vean bien en cualquier dispositivo."
+      "SUBTITLE": "Experiencia en crear páginas web con HTML5 y CSS3, aplicando diseño adaptativo para cualquier dispositivo."
     },
     "CARD_2":{
       "TITLE": "JavaScript",
@@ -43,7 +43,7 @@
     },
     "CARD_6":{
       "TITLE": "MongoDB",
-      "SUBTITLE": "Experiencia en usar MongoDB para almacenar y gestionar datos en aplicaciones, con conocimientos en diseño de esquemas y consultas eficientes."
+      "SUBTITLE": "Para almacenar y gestionar datos en aplicaciones, con conocimientos en diseño de esquemas y consultas eficientes."
     }
   },
   "ABOUT":{
@@ -52,7 +52,7 @@
     "PROFESION": "Desarrollando",
     "SECTION_TITLE_FIRST_PART": "software desde",
     "SECTION_TITLE_SECOND_PART": "2018",
-    "SUBTITLE": "Soy desarrollador full-stack profesional con más de seis años de experiencia práctica en el desarrollo de aplicaciones web y móviles.",
+    "SUBTITLE": "Soy desarrollador full-stack profesional con más de cinco años de experiencia práctica en el desarrollo de aplicaciones web y móviles.",
     "SUB_SECTION": "Experiencia",
     "SUB_SECTION_TITLE": "Mi experiencia de trabajo",
     "CARD_1": {
@@ -63,7 +63,7 @@
     "CARD_2": {
       "DATE": "Feb 2020 - Feb 2022",
       "TITLE": "Banco de corrientes S.A",
-      "SUBTITLE": "Identifiqué requisitos, realicé diseño UI/UX y colaboré en el desarrollo de aplicaciones móviles bancarias."
+      "SUBTITLE": "Identifiqué requisitos funcionales y no funcionales, realicé diseño UI/UX y colaboré en el desarrollo de aplicaciones móviles bancarias."
     },
     "CARD_3": {
       "DATE": "Jan 2018 - Feb 2020",
@@ -103,7 +103,7 @@
     },
     "CARD_2": {
       "TITLE": "Por vos",
-      "SUBTITLE_ROW1": "Aplicación mobile creada para el proyecto final de la facultad.",
+      "SUBTITLE_ROW1": "Aplicación mobile creada para el proyecto final para la universidad.",
       "SUBTITLE_ROW2": "Tecnologías: React Native, React, Firebase"
     },
     "CARD_3": {

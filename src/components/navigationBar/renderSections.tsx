@@ -9,7 +9,7 @@ import fonts from "../../../public/fonts";
 import { useTranslation } from "react-i18next";
 
 // Styles
-import { NavList } from "./styles";
+import { NavList, Text } from "./styles";
 
 // type
 interface RenderSectionProps {
@@ -37,7 +37,9 @@ const RenderSections: React.FC<RenderSectionProps> = ({ handleClick }): JSX.Elem
                 }
             }}
         >
+            <Text>
             {t(label)}
+            </Text>
         </NavList>
     )});
 };
